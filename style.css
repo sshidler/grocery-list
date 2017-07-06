@@ -1,0 +1,9 @@
+body {
+  font-family: 'Hind', sans-serif;
+  background: #87CEFA;
+}
+
+.show:hover {
+  visibility: visible;
+}
+
