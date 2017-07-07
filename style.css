@@ -1,9 +1,23 @@
 body {
   font-family: 'Hind', sans-serif;
-  background: #87CEFA;
+  background: #420f0b;
+  color: #dd4132;
+  margin-left: 50px;
 }
 
-.show:hover {
-  visibility: visible;
+.show {
+  margin-left: 10px;
+}
+
+.words {
+  color:#dd4132;
+}
+
+#add{
+  background:;
+}
+
+#clear {
+  background: ;
 }
 

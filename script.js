@@ -5,7 +5,7 @@ var $textInput = $("#textInput"),
 
 //add an item to the list
 $addButton.on('click', function () {
-   let item = $textInput.val();
+   var item = $textInput.val();
    var listItem = $("#groceryList").append(`<li class="listItems">${item}</li>`);
   
   for (let i=0; i < listItem.length; i++) {
@@ -20,13 +20,18 @@ $addButton.on("click", function(){
 
 //remove the item from the list
 $removeButton.on('click', function () {
-  $("button").parent().remove("li:last-child");
+  $(this).parent().remove();
 }); 
 
 //clear the list
 $clearButton.on('click', function () {
  $("ul").children().remove();
 });
+
+
+
+
+
 
 
 
